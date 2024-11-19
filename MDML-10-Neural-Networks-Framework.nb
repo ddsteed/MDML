@@ -1,0 +1,139 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4890,        131]
+NotebookOptionsPosition[      4292,        112]
+NotebookOutlinePosition[      4758,        129]
+CellTagsIndexPosition[      4715,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Jalil Villalobos Alva",
+  FontFamily->"FZLanTingHei-DB-GBK",
+  FontSize->12,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.8488288700694285, 0.3848325322346838, 0.1479972533760586]],
+ StyleBox["\[LineSeparator]",
+  FontSize->12,
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["\n",
+  FontSize->12,
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["Beginning Mathematica and Wolfram for Data Science: ML & DL        \
+      ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox["<",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "MDML"}, "MDML-9-Neural-Networks.nb", CharacterEncoding -> 
+     "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/MDML/MDML-9-Neural-Networks.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox["     ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox["\[CapitalXi]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "MPAAI"}, "contents.nb", CharacterEncoding -> "UTF-8"], None},
+  
+  ButtonNote->"/Users/fengh/Documents/RDS/EDITED/MPAAI/contents.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox["\[LineSeparator]\[LineSeparator]",
+  FontSize->12,
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["Edited by Hao Feng",
+  FontFamily->"Futura",
+  FontSize->12,
+  FontWeight->"Medium",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.8488288700694285, 0.3848325322346838, 0.1479972533760586]]
+}], "Text",
+ CellMargins->{{66, -45}, {4, 12}},
+ CellChangeTimes->{{3.9397640484222183`*^9, 3.939764052679113*^9}, 
+   3.9397641564677134`*^9, 3.939764214184162*^9, {3.939774845841297*^9, 
+   3.9397748486786137`*^9}, 3.9397769383984737`*^9, 3.939777524212697*^9, {
+   3.939777679887363*^9, 3.9397776986053457`*^9}, 3.939777748637487*^9, {
+   3.939777854556375*^9, 3.939777878635145*^9}, {3.9397779299447737`*^9, 
+   3.9397779337440853`*^9}, {3.9397779656956463`*^9, 
+   3.9397779872993917`*^9}, {3.939783995957651*^9, 3.9397839959644203`*^9}, 
+   3.93994857128743*^9, {3.9403030753694696`*^9, 3.9403030753782463`*^9}, {
+   3.940303217729404*^9, 3.940303217737211*^9}, {3.940741024123201*^9, 
+   3.940741027365489*^9}, {3.940741081934002*^9, 3.940741081942062*^9}, {
+   3.940973009124309*^9, 3.940973046503256*^9}, 3.94097331926856*^9, {
+   3.9409734052100286`*^9, 3.940973405217126*^9}, {3.940973531068428*^9, 
+   3.940973542361108*^9}},
+ LineSpacing->{0.6999999999999997, 3},
+ Background->RGBColor[
+  0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
+ CellID->912160115,ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682"],
+
+Cell["Neural Networks Framework", "Section",
+ CellChangeTimes->{
+  3.652728456208679*^9, 3.652728527108994*^9, {3.93977430409951*^9, 
+   3.939774306756702*^9}, {3.939774503882483*^9, 3.939774505098134*^9}, {
+   3.94097305470922*^9, 3.940973062415471*^9}, {3.9409733073939123`*^9, 
+   3.940973312049387*^9}, {3.9409734941837273`*^9, 3.940973495560047*^9}},
+ CounterAssignments->{{"Section", 0}},
+ CellID->1815624021,ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1"]
+},
+WindowSize->{960, 1027},
+WindowMargins->{{Automatic, 0}, {Automatic, 72}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "BookToolsStyles.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"8861bace-5584-420b-8e0c-c51fd7c6d3a1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 3261, 81, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
+ CellID->912160115],
+Cell[3818, 103, 470, 7, 133, "Section",ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1",
+ CounterAssignments->{{"Section", 0}},
+ CellID->1815624021]
+}
+]
+*)
+
