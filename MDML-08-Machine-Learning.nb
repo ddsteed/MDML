@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[      9313,        253]
-NotebookOptionsPosition[      8188,        222]
-NotebookOutlinePosition[      8654,        239]
-CellTagsIndexPosition[      8611,        236]
+NotebookDataLength[      9657,        258]
+NotebookOptionsPosition[      8528,        227]
+NotebookOutlinePosition[      8994,        244]
+CellTagsIndexPosition[      8951,        241]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,10 +43,11 @@ Cell[TextData[{
   BaseStyle->"Hyperlink",
   ButtonData->{
     FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
-      "EDITED", "MDML"}, "MDML-03-Working-with-Data.nb", CharacterEncoding -> 
-     "UTF-8"], None},
+      "EDITED", "Beginning_Mathematica_Wolfram_for_Data_Science"}, 
+     "MDML-03-Working-with-Data.nb", CharacterEncoding -> "UTF-8"], None},
   ButtonNote->
-   "/Users/fengh/Documents/RDS/EDITED/MDML/MDML-03-Working-with-Data.nb"],
+   "/Users/fengh/Documents/RDS/EDITED/Beginning_Mathematica_Wolfram_for_Data_\
+Science/MDML-03-Working-with-Data.nb"],
   FontFamily->"Arial Unicode MS",
   FontSize->17.5,
   FontWeight->"Regular",
@@ -62,10 +63,11 @@ Cell[TextData[{
   BaseStyle->"Hyperlink",
   ButtonData->{
     FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
-      "EDITED", "MDML"}, "MDML-09-Neural-Networks.nb", CharacterEncoding -> 
-     "UTF-8"], None},
+      "EDITED", "Beginning_Mathematica_Wolfram_for_Data_Science"}, 
+     "MDML-09-Neural-Networks.nb", CharacterEncoding -> "UTF-8"], None},
   ButtonNote->
-   "/Users/fengh/Documents/RDS/EDITED/MDML/MDML-09-Neural-Networks.nb"],
+   "/Users/fengh/Documents/RDS/EDITED/Beginning_Mathematica_Wolfram_for_Data_\
+Science/MDML-09-Neural-Networks.nb"],
   FontFamily->"Arial Unicode MS",
   FontSize->17.5,
   FontWeight->"Regular",
@@ -81,9 +83,11 @@ Cell[TextData[{
   BaseStyle->"Hyperlink",
   ButtonData->{
     FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
-      "EDITED", "MPAAI"}, "contents.nb", CharacterEncoding -> "UTF-8"], None},
-  
-  ButtonNote->"/Users/fengh/Documents/RDS/EDITED/MPAAI/contents.nb"],
+      "EDITED", "Beginning_Mathematica_Wolfram_for_Data_Science"}, 
+     "contents.nb", CharacterEncoding -> "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/Beginning_Mathematica_Wolfram_for_Data_\
+Science/contents.nb"],
   FontFamily->"Arial Unicode MS",
   FontSize->17.5,
   FontWeight->"Regular",
@@ -113,7 +117,8 @@ Cell[TextData[{
    3.940303217729404*^9, 3.940303217737211*^9}, {3.940741024123201*^9, 
    3.940741027365489*^9}, {3.940741081934002*^9, 3.940741081942062*^9}, {
    3.940973009124309*^9, 3.940973046503256*^9}, {3.940973431184552*^9, 
-   3.940973431193911*^9}, {3.943321235277779*^9, 3.94332126086893*^9}},
+   3.940973431193911*^9}, {3.943321235277779*^9, 3.94332126086893*^9}, {
+   3.943584415973337*^9, 3.943584428361142*^9}, 3.9435844911178102`*^9},
  LineSpacing->{0.6999999999999997, 3},
  Background->RGBColor[
   0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
@@ -121,7 +126,7 @@ Cell[TextData[{
 
 Cell[CellGroupData[{
 
-Cell["Machine Learning with the Wolfram Language", "Chapter",
+Cell["Machine Learning with the Wolfram Language", "Section",
  CellChangeTimes->{
   3.652728456208679*^9, 3.652728527108994*^9, {3.93977430409951*^9, 
    3.939774306756702*^9}, {3.939774503882483*^9, 3.939774505098134*^9}, {
@@ -151,7 +156,7 @@ and Titanic datasets.\
 
 Cell[CellGroupData[{
 
-Cell["Gradient Descent Algorithm", "Section",
+Cell["Gradient Descent Algorithm", "Subsection",
  CellChangeTimes->{{3.939774510619319*^9, 3.939774514848765*^9}, 
    3.9409730971673193`*^9},
  CellID->939413651,ExpressionUUID->"c33ee7ac-748e-4bcf-9781-7264a8344333"],
@@ -238,20 +243,20 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 3915, 99, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
+Cell[554, 20, 4252, 104, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
  CellID->912160115],
 Cell[CellGroupData[{
-Cell[4494, 123, 387, 6, 84, "Chapter",ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1",
+Cell[4831, 128, 387, 6, 133, "Section",ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1",
  CounterAssignments->{{"Section", 0}},
  CellID->1815624021],
-Cell[4884, 131, 1007, 18, 311, "Text",ExpressionUUID->"f4942f24-6286-4393-9dc2-c9ed30def7aa",
+Cell[5221, 136, 1007, 18, 311, "Text",ExpressionUUID->"f4942f24-6286-4393-9dc2-c9ed30def7aa",
  CellID->2057546526],
 Cell[CellGroupData[{
-Cell[5916, 153, 214, 3, 133, "Section",ExpressionUUID->"c33ee7ac-748e-4bcf-9781-7264a8344333",
+Cell[6253, 158, 217, 3, 68, "Subsection",ExpressionUUID->"c33ee7ac-748e-4bcf-9781-7264a8344333",
  CellID->939413651],
-Cell[6133, 158, 1367, 38, 137, "Text",ExpressionUUID->"1657ad5b-2370-4cc4-8500-184b6156996b",
+Cell[6473, 163, 1367, 38, 137, "Text",ExpressionUUID->"1657ad5b-2370-4cc4-8500-184b6156996b",
  CellID->1924023693],
-Cell[7503, 198, 657, 20, 49, "Text",ExpressionUUID->"4cbe8fe1-cffc-4ffe-b1a3-6dfe350ddc36",
+Cell[7843, 203, 657, 20, 49, "Text",ExpressionUUID->"4cbe8fe1-cffc-4ffe-b1a3-6dfe350ddc36",
  CellID->1189394867]
 }, Open  ]]
 }, Open  ]]
